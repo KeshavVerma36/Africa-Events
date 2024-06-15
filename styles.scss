@@ -20,7 +20,7 @@
 
     @media (max-width: 768px) {
         p {
-            font-size: 50px;
+            font-size: 50px; 
         }
     }
 
@@ -70,7 +70,7 @@
                 font-size: 100%;
                 position: absolute;
                 top: 0;
-                right: -75px; /* Adjust position as needed */
+                right: -75px;
                 color: white;
             }
         }
@@ -90,7 +90,7 @@
                 font-size: 70px;
 
                 &:after {
-                    right: -15px; /* Adjust position for smaller screens */
+                    right: -15px;
                 }
             }
 
@@ -108,7 +108,7 @@
                 font-size: 60px;
 
                 &:after {
-                    right: -10px; /* Adjust position for smaller screens */
+                    right: -10px;
                 }
             }
 
@@ -131,7 +131,7 @@
                 font-size: 50px;
 
                 &:after {
-                    right: -8px; /* Adjust position for smaller screens */
+                    right: -8px;
                 }
             }
 
