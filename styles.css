@@ -7,7 +7,7 @@
   position: relative;
   box-shadow: 0px 1px 5px #999;
   background-color: #f5bc66;
-  max-width: -moz-fit-content;
+  max-width: fit-content;
   max-width: fit-content;
 }
 .heading p {
@@ -46,23 +46,23 @@
   align-content: flex-start;
   width: 100%;
   background-color: rgba(245, 188, 102, 0.3);
-  height: -moz-fit-content;
+  height: fit-content;
   height: fit-content;
   overflow: auto;
   flex-direction: row;
   padding: 25px 0;
 }
 .stat-box > div {
-  width: -moz-fit-content;
   width: fit-content;
-  height: -moz-fit-content;
+  width: fit-content;
+  height: fit-content;
   height: fit-content;
   margin: 0 20px;
 }
 .stat-box > div h3 {
   font-size: 125px;
   color: white;
-  max-width: -moz-fit-content;
+  max-width: fit-content;
   max-width: fit-content;
   margin: 0 auto;
   position: relative;
@@ -72,14 +72,14 @@
   font-size: 100%;
   position: absolute;
   top: 0;
-  right: -75px; /* Adjust position as needed */
+  right: -75px;
   color: white;
 }
 .stat-box > div h4 {
   margin-top: 0;
   font-size: 60px;
   color: white;
-  max-width: -moz-fit-content;
+  max-width: fit-content;
   max-width: fit-content;
   margin: 50;
 }
@@ -91,7 +91,7 @@
     font-size: 70px;
   }
   .stat-box > div h3:after {
-    right: -15px; /* Adjust position for smaller screens */
+    right: -15px;
   }
   .stat-box > div h4 {
     font-size: 40px;
@@ -105,7 +105,7 @@
     font-size: 60px;
   }
   .stat-box > div h3:after {
-    right: -10px; /* Adjust position for smaller screens */
+    right: -10px; 
   }
   .stat-box > div h4 {
     font-size: 30px;
@@ -123,7 +123,7 @@
     font-size: 50px;
   }
   .stat-box > div h3:after {
-    right: -8px; /* Adjust position for smaller screens */
+    right: -8px; 
   }
   .stat-box > div h4 {
     font-size: 30px;
